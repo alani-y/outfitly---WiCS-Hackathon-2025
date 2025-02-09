@@ -9,10 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function StylePage() {
   return (
 
-    <div className="homepage">
+    <div className="western-page">
       <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
-      <h1 className="display-3 fw-bold text-pink-800">Western</h1>
-        <h2 className="fs-4 text-secondary">Howdy</h2>
+      <h1 className="western-title display-3 fw-bold text-pink-800">Western</h1>
+        <h2 className="western-title fs-4 text-secondary">Howdy</h2>
         </div>
 
         <Container className="py-4 g-3">

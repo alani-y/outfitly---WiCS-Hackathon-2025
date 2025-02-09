@@ -18,7 +18,6 @@ const Homepage = () => {
 
   return (
 
-
     <div className="homepage">
       <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
       <h1 className="display-3 fw-bold text-pink-800">What Are You Looking For?</h1>

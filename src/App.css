@@ -11,6 +11,19 @@
   align-items: center;
 }
 
+.western-page{
+  background-color: #D0A36C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.western-title{
+  color: #7D4F17 !important;
+}
+
 .polaroid-card {
   width: 250px; /* Adjust size */
   height: 300px; /* More Polaroid-like proportions */
@@ -40,19 +53,8 @@
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  color: #333;
+  color: #7D4F17 !important;
   margin-top: 10px;
-}
-
-
-.custom-border {
-  border: 10px solid #CB3B67; /* Pink border */
-  border-radius: 10px; /* Optional: Rounded corners */
-}
-
-
-.card-title, h1, h2, h3 {
-  color: #CB3B67 !important;
 }
 
 .App-logo {
@@ -79,6 +81,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.custom-border {
+  border: 10px solid #CB3B67; /* Pink border */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.card-title, h1, h2, h3 {
+  color: #CB3B67 !important;
 }
 
 @keyframes App-logo-spin {
