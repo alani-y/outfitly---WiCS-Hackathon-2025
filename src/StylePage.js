@@ -18,7 +18,7 @@ function StylePage() {
         <Container className="py-4 g-3">
           <Row className="w-100 mb-4"> {/* First Row */}
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Cowboy Hat</Card.Title>
                 </Card.Body>
@@ -26,7 +26,7 @@ function StylePage() {
             </Col>
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Fringe Jacket</Card.Title>
                 </Card.Body>
@@ -34,7 +34,7 @@ function StylePage() {
             </Col>
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Western Boots</Card.Title>
                 </Card.Body>
@@ -44,7 +44,7 @@ function StylePage() {
 
           <Row className="w-100"> {/* Second Row */}
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Denim Jeans</Card.Title>
                 </Card.Body>
@@ -52,7 +52,7 @@ function StylePage() {
             </Col>
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Bolo Tie</Card.Title>
                 </Card.Body>
@@ -60,7 +60,7 @@ function StylePage() {
             </Col>
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
-              <Card className="polaroid-card">
+              <Card className="polaroid-card" style={{ width: '220px', height: '280px' }}>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="polaroid-title">Plaid Shirt</Card.Title>
                 </Card.Body>
