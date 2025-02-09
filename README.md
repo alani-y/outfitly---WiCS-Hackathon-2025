@@ -3,6 +3,8 @@
 ## 📌 Overview
 **Outfitly** helps users choose stylish outfits and match colors effortlessly. Whether you're picking a style or coordinating colors, Outfitly makes fashion fun and easy.
 
+<img src="outfitly/public/fashion.png" width="500"/>
+
 ## 🎯 Goals
 - Help users find stylish outfits  
 - Provide outfit ideas for different styles (Western, Streetwear, Business Casual)  
