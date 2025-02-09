@@ -77,7 +77,7 @@ const Homepage = () => {
 
       {expandedCard === "palette" && (
         <Container className="my-4">
-          <h2 className="text-pink-800 fw-bold">Pick Your Fav Color...</h2>
+          <h2 className="homepage-title fw-bold">Pick Your Fav Color...</h2>
           <p className="text-secondary">swipe for more options!</p>
           <Container className="border border-pink-800 rounded p-3 bg-white shadow-lg d-flex justify-content-center align-items-center" style={{ width: '90%', maxWidth: '900px' }}>
             <Row className="g-2 w-100">
