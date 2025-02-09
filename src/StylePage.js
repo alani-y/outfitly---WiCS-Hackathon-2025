@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
@@ -8,6 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const StylePage = () => {
     return (
       <div className="container mx-auto p-8 text-center">
+        <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
+          <h1 className="display-3 fw-bold text-pink-800">What Are You Looking For?</h1>
+          <h2 className="fs-4 text-secondary">Dress Better, Stress Less</h2>
+        </div>
+
         <h1 className="text-3xl font-bold mb-6">Styles</h1>
 
         <div className="grid grid-cols-3 gap-6">
