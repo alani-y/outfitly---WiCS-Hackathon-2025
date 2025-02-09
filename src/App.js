@@ -5,43 +5,38 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Homepage = () => {
   return (
-    // style={{ backgroundColor: "pink", minHeight: "100vh" }}
-    // className="container mx-auto p-8 text-center bg-pink-200 min-h-screen flex flex-col justify-center items-center"
-    <div className="homepage">
-      /*<h1 className="text-5xl font-bold mb-2 text-pink-800">What Are You Looking For?</h1>
-      <h2 className="text-2xl mb-8 text-gray-600">Dress Better, Stress Less</h2>
 
-      <div className="mb-8">
-        <h3 className="text-2xl font-semibold text-pink-800">An Outfit For A...</h3>
-        <p className="text-lg text-gray-700">any event!</p>
+    <div className="homepage">
+      <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
+        <h1 className="display-3 fw-bold text-pink-800">What Are You Looking For?</h1>
+        <h2 className="fs-4 text-secondary">Dress Better, Stress Less</h2>
       </div>
 
-      <Container className="d-flex justify-content-center align-items-center min-vh-100">
-      <Row className="g-4">
-        <Col md={6} lg={4}>
-          <Card className="shadow-lg">
+      <Container className="py-3 text-left">
+        <h3 className="text-pink-800 fw-bold fs-3 text-left mb-2">An Outfit For A...</h3>
+        <p className="text-secondary align-self-start mb-3">any event!</p>
+      </Container>
+
+      <Container className="d-flex justify-content-center align-items-center py-4 g-3">
+      <Row className="w-100">
+        <Col md={6} className="d-flex justify-content-center">
+          <Card className="w-100 h-100 shadow-lg">
             <Card.Body>
-              <Card.Title>Style</Card.Title>
-              <Card.Text>Explore different outfit styles</Card.Text>
+              <Card.Title className="card-title text-center">Style</Card.Title>
+              <Card.Text className="text-center">Explore different outfit styles</Card.Text>
             </Card.Body>
           </Card>
         </Col>
-
-        <Col md={6} lg={4}>
-          <Card className="shadow-lg">
+        <Col md={6} className="d-flex justify-content-center">
+          <Card className="w-100 h-100 shadow-lg">
             <Card.Body>
-              <Card.Title>Palette</Card.Title>
-              <Card.Text>Match colors for your outfits</Card.Text>
+              <Card.Title className="card-title text-center">Palette</Card.Title>
+              <Card.Text className="text-center">Match colors for your outfits</Card.Text>
             </Card.Body>
           </Card>
         </Col>
       </Row>
     </Container>
-
-      <div className="grid grid-cols-2 gap-6">
-          <h3 className="text-lg font-medium">Palette</h3>
-          <p>Match colors for your outfits</p>
-      </div>
     </div>
   );
 };

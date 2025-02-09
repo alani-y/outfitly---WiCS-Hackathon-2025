@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.card-title, h1, h2, h3 {
+  color: #CB3B67 !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
