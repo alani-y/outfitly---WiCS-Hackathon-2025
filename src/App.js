@@ -56,7 +56,7 @@ const Homepage = () => {
           <Row>
             <Col md={4}><Card className="shadow"><Card.Body>Casual</Card.Body></Card></Col>
             {/*<Link to="/StylePage.js">*/}
-            <Col md={4}><Card className="shadow"><Link to="/StylePage.js" className="text-decoration-none text-dark"><Card.Body>Western</Card.Body></Link></Card></Col>
+            <Col md={4}><Card className="shadow"><Link to="/style" className="text-decoration-none text-dark"><Card.Body>Western</Card.Body></Link></Card></Col>
             <Col md={4}><Card className="shadow"><Card.Body>Formal</Card.Body></Card></Col>
           </Row>
         </Container>
