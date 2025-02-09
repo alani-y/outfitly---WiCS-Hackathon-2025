@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -29,7 +30,7 @@ const Homepage = () => {
       <Container className="d-flex justify-content-center align-items-center py-4 g-3">
       <Row className="w-100">
         <Col md={6} className="d-flex justify-content-center">
-          <Card className="w-100 h-100 shadow-lg" onClick={() => handleCardClick("style")}>
+          <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("style")}>
             <Card.Body>
               <Card.Title className="text-center">Style</Card.Title>
               <Card.Text className="text-center">Explore different outfit styles</Card.Text>
@@ -38,7 +39,7 @@ const Homepage = () => {
         </Col>
 
         <Col md={6} className="d-flex justify-content-center">
-          <Card className="w-100 h-100 shadow-lg"  onClick={() => handleCardClick("palette")}>
+          <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("palette")}>
             <Card.Body>
               <Card.Title className="text-center">Palette</Card.Title>
               <Card.Text className="text-center">Match colors for your outfits</Card.Text>
@@ -53,6 +54,7 @@ const Homepage = () => {
         <Container className="my-4">
           <Row>
             <Col md={4}><Card className="shadow"><Card.Body>Casual</Card.Body></Card></Col>
+            {/*<Link to="/StylePage.js">*/}
             <Col md={4}><Card className="shadow"><Card.Body>Western</Card.Body></Card></Col>
             <Col md={4}><Card className="shadow"><Card.Body>Formal</Card.Body></Card></Col>
           </Row>
