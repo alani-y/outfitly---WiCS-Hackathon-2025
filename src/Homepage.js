@@ -123,9 +123,15 @@ const Homepage = () => {
           <h2 className="text-pink-800 fw-bold">Choose a Color Combo...</h2>
           <p className="text-secondary">Choose one!</p>
           <Row className="g-3 d-flex justify-content-center">
-            {Array.from({ length: 3 }).map((_, index) => (
+            {[
+              "/images/color.jpeg",
+              "/images/Deep Nautical Color Palette.jpeg",
+              "/images/Palette Summer photo.jpeg",
+            ].map((image, index) => (
               <Col key={index} xs={4} md={4} lg={4} className="d-flex justify-content-center">
-                <Card className="border border-pink-800 shadow-lg" style={{ width: '320px', height: '200px' }}></Card>
+                <Card className="border border-pink-800 shadow-lg" style={{ width: "320px", height: "200px" }}>
+                  <Card.Img src={image} alt={`Color Combo ${index + 1}`} className="w-100 h-100 object-fit-cover" />
+                </Card>
               </Col>
             ))}
           </Row>
