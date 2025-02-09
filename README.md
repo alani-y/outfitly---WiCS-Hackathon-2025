@@ -3,7 +3,7 @@
 ## 📌 Overview
 **Outfitly** helps users choose stylish outfits and match colors effortlessly. Whether you're picking a style or coordinating colors, Outfitly makes fashion fun and easy.
 
-<img src="outfitly/public/fashion.png" width="500"/>
+![Fashion Illustration](./Vector-Fashion-Woman-PNG-HD.png)
 
 ## 🎯 Goals
 - Help users find stylish outfits  
@@ -56,9 +56,6 @@ Outfitly/
 - AI-powered outfit suggestions  
 - Weather-based outfit recommendations  
 - Virtual wardrobe feature  
-
-## 🤝 Contributing
-Fork, make changes, and submit a pull request!  
 
 ## 📜 License
 MIT License  
