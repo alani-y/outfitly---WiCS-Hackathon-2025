@@ -113,7 +113,7 @@ const Homepage = () => {
             <Row className="g-2 w-100">
               {Array.from({ length: 12 }).map((_, index) => (
                 <Col key={index} xs={2} md={3} lg={2} className="d-flex justify-content-center">
-                  <Card className="border border-pink-800" style={{ width: '300px', height: '100px' }} onClick={() => setSelectedColor(index)}></Card>
+                  <Card className="border border-pink-800" style={{ width: '300px', height: '100px', backgroundColor: colors[index] }} onClick={() => setSelectedColor(index)}></Card>
                 </Col>
               ))}
             </Row>
