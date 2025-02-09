@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import logo from './logo.svg';
+import './App.css';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -16,17 +16,12 @@ const Homepage = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-6">
-        <Link to="/style" className="border-2 border-pink-800 p-6 rounded-lg text-center shadow-lg bg-white hover:shadow-xl transition w-64 h-40 flex flex-col justify-center items-center">
-          <img src="/images/style.jpg" alt="Style" className="w-full h-24 object-cover rounded" />
-          <h3 className="text-lg font-medium text-pink-800 mt-2">Style</h3>
-          <p className="text-gray-700">Find an Outfit for a Style</p>
-        </Link>
+          <h3 className="text-lg font-medium">Style</h3>
+          <p>Explore different outfit styles</p>
+          <Button>This is a Button</Button>
 
-        <Link to="/colorpalette" className="border-2 border-pink-800 p-6 rounded-lg text-center shadow-lg bg-white hover:shadow-xl transition w-64 h-40 flex flex-col justify-center items-center">
-          <img src="/images/palette.jpg" alt="Palette" className="w-full h-24 object-cover rounded" />
-          <h3 className="text-lg font-medium text-pink-800 mt-2">Palette</h3>
-          <p className="text-gray-700">Find an Outfit for a Palette</p>
-        </Link>
+          <h3 className="text-lg font-medium">Palette</h3>
+          <p>Match colors for your outfits</p>
       </div>
     </div>
   );
