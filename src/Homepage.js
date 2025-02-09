@@ -20,13 +20,13 @@ const Homepage = () => {
 
     <div className="homepage">
       <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
-      <h1 className="display-3 fw-bold text-pink-800">What Are You Looking For?</h1>
-        <h2 className="fs-4 text-secondary">Dress Better, Stress Less</h2>
+      <h1 className="homepage-title display-3 fw-bold text-pink-800">What Are You Looking For?</h1>
+        <h2 className="homepage-title fs-4 text-secondary">Dress Better, Stress Less</h2>
         </div>
 
 
       <Container className="py-3 text-left">
-        <h3 className="text-pink-800 fw-bold fs-3 text-left mb-2">An Outfit For A...</h3>
+        <h3 className="homepage-title text-pink-800 fw-bold fs-3 text-left mb-2">An Outfit For A...</h3>
         <p className="text-secondary align-self-start mb-3">any event!</p>
       </Container>
 
@@ -36,8 +36,8 @@ const Homepage = () => {
         <Col md={6} className="d-flex justify-content-center">
           <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("style")}>
             <Card.Body>
-              <Card.Title className="text-center">Style</Card.Title>
-              <Card.Text className="text-center">Explore different outfit styles</Card.Text>
+              <Card.Title className="homepage-title text-center" style={{ color: "#CB3B67" }}>Style</Card.Title>
+              <Card.Text className="homepage-title text-center">Explore different outfit styles</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -46,8 +46,8 @@ const Homepage = () => {
         <Col md={6} className="d-flex justify-content-center">
           <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("palette")}>
             <Card.Body>
-              <Card.Title className="text-center">Palette</Card.Title>
-              <Card.Text className="text-center">Match colors for your outfits</Card.Text>
+              <Card.Title className="homepage-title text-center" style={{ color: "#CB3B67" }}>Palette</Card.Title>
+              <Card.Text className="homepage-title text-center">Match colors for your outfits</Card.Text>
             </Card.Body>
           </Card>
         </Col>
