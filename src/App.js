@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import StylePage from './StylePage';
 
 const Homepage = () => {
   const [expandedCard, setExpandedCard] = useState(null);
@@ -55,7 +56,7 @@ const Homepage = () => {
           <Row>
             <Col md={4}><Card className="shadow"><Card.Body>Casual</Card.Body></Card></Col>
             {/*<Link to="/StylePage.js">*/}
-            <Col md={4}><Card className="shadow"><Card.Body>Western</Card.Body></Card></Col>
+            <Col md={4}><Card className="shadow"><Link to="/StylePage.js" className="text-decoration-none text-dark"><Card.Body>Western</Card.Body></Link></Card></Col>
             <Col md={4}><Card className="shadow"><Card.Body>Formal</Card.Body></Card></Col>
           </Row>
         </Container>
