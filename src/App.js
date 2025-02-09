@@ -1,7 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 
+const Homepage = () => {
+  return (
+    <div className="container mx-auto p-8 text-center">
+      <h1 className="text-4xl font-bold mb-6">What Are You Looking For?</h1>
 
+      <div className="grid grid-cols-2 gap-6">
+
+          <h3 className="text-lg font-medium">Style</h3>
+          <p>Explore different outfit styles</p>
+
+
+          <h3 className="text-lg font-medium">Palette</h3>
+          <p>Match colors for your outfits</p>
+      </div>
+    </div>
+  );
+};
 
 
 function App() {
@@ -25,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
