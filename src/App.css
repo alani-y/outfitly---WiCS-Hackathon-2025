@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.homepage{
+  background-color: pink;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
