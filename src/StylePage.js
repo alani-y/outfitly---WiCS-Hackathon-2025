@@ -30,6 +30,9 @@ function StylePage() {
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/fringe jacket.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="card-title polaroid-title">Fringe Jacket</Card.Title>
                 </Card.Body>
@@ -38,8 +41,11 @@ function StylePage() {
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/cowboy boots.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
-                  <Card.Title className="card-title polaroid-title">Western Boots</Card.Title>
+                  <Card.Title className="card-title polaroid-title">Boots</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
@@ -48,6 +54,9 @@ function StylePage() {
           <Row className="w-100"> {/* Second Row */}
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/jeans.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="card-title polaroid-title">Denim Jeans</Card.Title>
                 </Card.Body>
@@ -56,16 +65,22 @@ function StylePage() {
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/jewelry.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
-                  <Card.Title className="card-title polaroid-title">Bolo Tie</Card.Title>
+                  <Card.Title className="card-title polaroid-title">Jewelry</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
 
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/belt.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
-                  <Card.Title className="card-title polaroid-title">Plaid Shirt</Card.Title>
+                  <Card.Title className="card-title polaroid-title">Belt</Card.Title>
                 </Card.Body>
               </Card>
             </Col>
