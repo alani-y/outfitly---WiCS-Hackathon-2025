@@ -70,7 +70,7 @@ const Homepage = () => {
             <Row className="g-2 w-100">
               {Array.from({ length: 12 }).map((_, index) => (
                 <Col key={index} xs={2} md={3} lg={2} className="d-flex justify-content-center">
-                  <Card className="border border-pink-800" style={{ width: '80px', height: '80px' }} onClick={() => setSelectedColor(index)}></Card>
+                  <Card className="border border-pink-800" style={{ width: '250px', height: '100px' }} onClick={() => setSelectedColor(index)}></Card>
                 </Col>
               ))}
             </Row>
@@ -85,7 +85,7 @@ const Homepage = () => {
           <Row className="g-3 d-flex justify-content-center">
             {Array.from({ length: 3 }).map((_, index) => (
               <Col key={index} xs={4} md={4} lg={4} className="d-flex justify-content-center">
-                <Card className="border border-pink-800 shadow-lg" style={{ width: '220px', height: '90px' }}></Card>
+                <Card className="border border-pink-800 shadow-lg" style={{ width: '300px', height: '200px' }}></Card>
               </Col>
             ))}
           </Row>
