@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Homepage = () => {
   return (
 
+
     <div className="container mx-auto p-8 text-center bg-pink-200 min-h-screen flex flex-col justify-center items-center">
       /*<h1 className="text-5xl font-bold mb-2 text-pink-800">What Are You Looking For?</h1>
       <h2 className="text-2xl mb-8 text-gray-600">Dress Better, Stress Less</h2>
