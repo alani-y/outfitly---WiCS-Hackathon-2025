@@ -99,20 +99,33 @@
   object-fit: cover; /* Ensures the image fills the square */
 }
 
-.square-img-container {
-  width: 100px; /* Adjust size as needed */
-  height: 100px;
+.square-img-style-palette {
+  width: 30%; /* Reduce size, adjust as needed */
+  padding-top: 30%; /* Maintain square shape */
+  position: relative;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 10px auto; /* Adds space around the image */
+  border-radius: 8px; /* Optional: Rounds corners */
+}
+
+.square-img-container {
+  width: 90%; /* Slightly smaller than full width to allow padding */
+  padding-top: 90%; /* Maintain square shape */
+  position: relative;
+  overflow: hidden;
+  margin-left: 15px;
+  margin: 10px auto; /* Adds space around the image */
+  border-radius: 8px; /* Optional: Rounds corners slightly */
 }
 
 .square-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image fills the square */
-  border-radius: 8px; /* Optional: for rounded corners */
+  object-fit: cover;
+  border-radius: 8px; /* Optional: Matches container rounding */
 }
 
 .text-container {

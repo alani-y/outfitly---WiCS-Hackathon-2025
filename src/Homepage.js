@@ -31,7 +31,7 @@ const Homepage = () => {
         <Col md={6} className="d-flex justify-content-center">
           <Card className="w-100 h-100 shadow-lg custom-border d-flex flex-row align-items-center" onClick={() => handleCardClick("style")}>
             {/* Left side - Image */}
-            <div className="square-img-container">
+            <div className="square-img-style-palette">
               <Card.Img src="/images/style image.jpeg" className="square-img"/>
             </div>
 
@@ -45,16 +45,16 @@ const Homepage = () => {
 
 
         <Col md={6} className="d-flex justify-content-center">
-          <Card className="w-100 h-100 shadow-lg custom-border d-flex flex-row align-items-center" onClick={() => handleCardClick("style")}>
+          <Card className="w-100 h-100 shadow-lg custom-border d-flex flex-row align-items-center" onClick={() => handleCardClick("palette")}>
             {/* Left side - Image */}
-            <div className="square-img-container">
+            <div className="square-img-style-palette">
               <Card.Img src="/images/pink color palette.png" className="square-img"/>
             </div>
 
             {/* Right side - Text */}
             <Card.Body className="text-container">
-              <Card.Title className="homepage-title text-left" style={{ color: "#CB3B67" }}>Style</Card.Title>
-              <Card.Text className="homepage-title text-left">Explore different outfit styles</Card.Text>
+              <Card.Title className="homepage-title text-left" style={{ color: "#CB3B67" }}>Palette</Card.Title>
+              <Card.Text className="homepage-title text-left">Find an Outfit for a Palette</Card.Text>
             </Card.Body>
           </Card>
         </Col>
@@ -66,16 +66,39 @@ const Homepage = () => {
       {expandedCard === "style" && (
         <Container className="my-4">
           <Row>
-            <Col md={4}><Card className="shadow"><Card.Body>Casual</Card.Body></Card></Col>
+            {/* Casual */}
             <Col md={4}>
-              <Card className="shadow">
+              <Card className="shadow text-center">
+                <div className="square-img-container">
+                  <Card.Img src="/images/Streetwear.jpeg" className="square-img" />
+                </div>
+                <Card.Body>Streetwear</Card.Body>
+              </Card>
+            </Col>
+
+            {/* Western (with Link) */}
+            <Col md={4}>
+              <Card className="shadow text-center">
                 <Link to="/style" className="text-decoration-none text-dark">
+                  <div className="square-img-container">
+                    <Card.Img src="/images/western.jpeg" className="square-img" />
+                  </div>
                   <Card.Body>Western</Card.Body>
                 </Link>
               </Card>
             </Col>
-            <Col md={4}><Card className="shadow"><Card.Body>Formal</Card.Body></Card></Col>
+
+            {/* Formal */}
+            <Col md={4}>
+              <Card className="shadow text-center">
+                <div className="square-img-container">
+                  <Card.Img src="/images/business.jpeg" className="square-img" />
+                </div>
+                <Card.Body>Business Casual</Card.Body>
+              </Card>
+            </Col>
           </Row>
+
         </Container>
       )}
 
