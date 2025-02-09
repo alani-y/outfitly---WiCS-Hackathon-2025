@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Homepage = () => {
@@ -16,13 +16,28 @@ const Homepage = () => {
         <p className="text-lg text-gray-700">any event!</p>
       </div>
 
-      <Card>
-        <div>
-          <h3 className="text-lg font-medium">Style</h3>
-            <p>Explore different outfit styles</p>
-            <Button>This is a Button</Button>
-        </div>
-      </Card>
+      <Container className="d-flex justify-content-center align-items-center min-vh-100">
+      <Row className="g-4">
+        <Col md={6} lg={4}>
+          <Card className="shadow-lg">
+            <Card.Body>
+              <Card.Title>Style</Card.Title>
+              <Card.Text>Explore different outfit styles</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={6} lg={4}>
+          <Card className="shadow-lg">
+            <Card.Body>
+              <Card.Title>Palette</Card.Title>
+              <Card.Text>Match colors for your outfits</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
+
       <div className="grid grid-cols-2 gap-6">
           <h3 className="text-lg font-medium">Palette</h3>
           <p>Match colors for your outfits</p>
