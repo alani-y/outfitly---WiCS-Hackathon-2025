@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Homepage = () => {
   const [expandedCard, setExpandedCard] = useState(null);
+  const [selectedColor, setSelectedColor] = useState(null);
+
 
   const handleCardClick = (card) => {
     setExpandedCard(expandedCard === card ? null : card);
@@ -59,15 +61,36 @@ const Homepage = () => {
 
       {expandedCard === "palette" && (
         <Container className="my-4">
-          <Row>
-            <Col md={4}><Card className="shadow"><Card.Body>Pastel</Card.Body></Card></Col>
-            <Col md={4}><Card className="shadow"><Card.Body>Monochrome</Card.Body></Card></Col>
-            <Col md={4}><Card className="shadow"><Card.Body>Earth Tones</Card.Body></Card></Col>
+          <h2 className="text-pink-800 fw-bold">Pick Your Fav Color...</h2>
+          <p className="text-secondary">swipe for more options!</p>
+          <Container className="border border-pink-800 rounded p-3 bg-white shadow-lg d-flex justify-content-center align-items-center" style={{ width: '90%', maxWidth: '900px' }}>
+            <Row className="g-2 w-100">
+              {Array.from({ length: 12 }).map((_, index) => (
+                <Col key={index} xs={2} md={3} lg={2} className="d-flex justify-content-center">
+                  <Card className="border border-pink-800" style={{ width: '80px', height: '80px' }} onClick={() => setSelectedColor(index)}></Card>
+                </Col>
+              ))}
+            </Row>
+          </Container>
+        </Container>
+      )}
+
+      {selectedColor !== null && (
+        <Container className="my-4 text-center">
+          <h2 className="text-pink-800 fw-bold">Choose a Color Combo...</h2>
+          <p className="text-secondary">Choose one!</p>
+          <Row className="g-3 d-flex justify-content-center">
+            {Array.from({ length: 3 }).map((_, index) => (
+              <Col key={index} xs={4} md={4} lg={4} className="d-flex justify-content-center">
+                <Card className="border border-pink-800 shadow-lg" style={{ width: '220px', height: '90px' }}></Card>
+              </Col>
+            ))}
           </Row>
         </Container>
       )}
     </div>
   );
 };
+
 
 export default Homepage;
