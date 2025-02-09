@@ -14,6 +14,9 @@ const Homepage = () => {
     setExpandedCard(expandedCard === card ? null : card);
   };
 
+  const colors = ["#FF0000", "#FF0000", "#FFF202", "#348C0C", "#427CF0", "#755AEC",
+    "#D12291", "#FFFFFF", "#C3C3C3", "#000000", "#78520B", "#FFD1AC"];
+
   return (
     <div className="homepage">
       <div className="w-100 min-vh-50 bg-pink-200 text-center py-5">
