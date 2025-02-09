@@ -83,6 +83,22 @@
   color: #61dafb;
 }
 
+.image-container {
+  width: 100%;
+  padding-top: 100%; /* Makes the container a perfect square */
+  position: relative;
+  overflow: hidden;
+}
+
+.cropped-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the square */
+}
+
 .custom-border {
   border: 10px solid #CB3B67; /* Pink border */
   border-radius: 10px; /* Optional: Rounded corners */

@@ -19,6 +19,9 @@ function StylePage() {
           <Row className="w-100 mb-4"> {/* First Row */}
             <Col xs={12} md={4} className="d-flex justify-content-center">
               <Card className="polaroid-card">
+                <div className="image-container">
+                  <Card.Img variant="top" src="/images/cowboy hat.png" className="cropped-img" />
+                </div>
                 <Card.Body className="polaroid-body">
                   <Card.Title className="card-title polaroid-title">Cowboy Hat</Card.Title>
                 </Card.Body>
