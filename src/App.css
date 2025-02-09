@@ -99,6 +99,28 @@
   object-fit: cover; /* Ensures the image fills the square */
 }
 
+.square-img-container {
+  width: 100px; /* Adjust size as needed */
+  height: 100px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the square */
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.text-container {
+  flex: 1; /* Ensures text fills remaining space */
+  padding-left: 15px;
+}
+
+
 .custom-border {
   border: 10px solid #CB3B67; /* Pink border */
   border-radius: 10px; /* Optional: Rounded corners */

@@ -29,20 +29,32 @@ const Homepage = () => {
       <Container className="d-flex justify-content-center align-items-center py-4 g-3">
       <Row className="w-100">
         <Col md={6} className="d-flex justify-content-center">
-          <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("style")}>
-            <Card.Body>
-              <Card.Title className="homepage-title text-center" style={{ color: "#CB3B67" }}>Style</Card.Title>
-              <Card.Text className="homepage-title text-center">Explore different outfit styles</Card.Text>
+          <Card className="w-100 h-100 shadow-lg custom-border d-flex flex-row align-items-center" onClick={() => handleCardClick("style")}>
+            {/* Left side - Image */}
+            <div className="square-img-container">
+              <Card.Img src="/images/style image.jpeg" className="square-img"/>
+            </div>
+
+            {/* Right side - Text */}
+            <Card.Body className="text-container">
+              <Card.Title className="homepage-title text-left" style={{ color: "#CB3B67" }}>Style</Card.Title>
+              <Card.Text className="homepage-title text-left">Explore different outfit styles</Card.Text>
             </Card.Body>
           </Card>
         </Col>
 
 
         <Col md={6} className="d-flex justify-content-center">
-          <Card className="w-100 h-100 shadow-lg custom-border" onClick={() => handleCardClick("palette")}>
-            <Card.Body>
-              <Card.Title className="homepage-title text-center" style={{ color: "#CB3B67" }}>Palette</Card.Title>
-              <Card.Text className="homepage-title text-center">Match colors for your outfits</Card.Text>
+          <Card className="w-100 h-100 shadow-lg custom-border d-flex flex-row align-items-center" onClick={() => handleCardClick("style")}>
+            {/* Left side - Image */}
+            <div className="square-img-container">
+              <Card.Img src="/images/pink color palette.png" className="square-img"/>
+            </div>
+
+            {/* Right side - Text */}
+            <Card.Body className="text-container">
+              <Card.Title className="homepage-title text-left" style={{ color: "#CB3B67" }}>Style</Card.Title>
+              <Card.Text className="homepage-title text-left">Explore different outfit styles</Card.Text>
             </Card.Body>
           </Card>
         </Col>
