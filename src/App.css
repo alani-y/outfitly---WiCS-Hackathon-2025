@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.custom-border {
+  border: 10px solid #CB3B67; /* Pink border */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+
 .card-title, h1, h2, h3 {
   color: #CB3B67 !important;
 }
