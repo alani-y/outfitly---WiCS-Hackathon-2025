@@ -19,42 +19,8 @@
 - **Modern UI:** Clean and visually appealing design  
 
 ## 🛠️ Technologies Used
-- **React.js** (Frontend)  
-- **React Router** (Navigation)  
-- **Tailwind CSS** (Styling)  
-- **Vite** (Fast development server)  
-
-## 📂 Project Structure
-```
-Outfitly/
-│── src/
-│   ├── Homepage.jsx
-│   ├── StylePage.jsx
-│   ├── ColorPalette.jsx
-│── public/
-│── App.jsx
-│── README.md
-```
-
-## 📌 How to Run the Project
-1. **Clone the repo:**
-   ```sh
-   git clone https://github.com/your-username/outfitly.git
-   cd outfitly
-   ```
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-3. **Run the app:**
-   ```sh
-   npm run dev
-   ```
-4. **Open:** [http://localhost:5173/](http://localhost:5173/)
-
-## 🔮 Future Enhancements
-- AI-powered outfit suggestions  
-- Weather-based outfit recommendations  
+- **React.js** 
+- **CSS**
 - Virtual wardrobe feature  
 
 ## 📜 License
