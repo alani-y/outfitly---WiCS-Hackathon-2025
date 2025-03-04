@@ -20,7 +20,6 @@ Video demo: https://drive.google.com/file/d/1AbK7yvO3S5D7Hbb1FDlujgngWRuZHY6q/vi
 ## 🛠️ Technologies Used
 - **React.js** 
 - **CSS**
-- Virtual wardrobe feature  
 
 ## 🏗️ Installation
 
