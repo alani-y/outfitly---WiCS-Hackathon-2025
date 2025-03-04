@@ -21,8 +21,37 @@
 - **CSS**
 - Virtual wardrobe feature  
 
-## 📜 License
-MIT License  
+## 🏗️ Installation
+
+Follow these steps to set up Outfitly on your local machine:
+
+### Prerequisites
+- Node.js (latest LTS recommended)
+- npm or yarn package manager
+
+### Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/outfitly.git
+   cd outfitly
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm start
+   # or
+   yarn start
+   ```
+
+4. **Open in browser:**
+   The app will be accessible at `http://localhost:3000`.
 
 ---
 💡 **Outfitly - Making Every Outfit a Perfect Fit!** 👕👗✨
