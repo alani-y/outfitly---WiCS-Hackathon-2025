@@ -32,7 +32,7 @@ Follow these steps to set up Outfitly on your local machine:
 ### Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/outfitly.git
+   git clone https://github.com/alani-y/outfitly---WiCS-Hackathon-2025.git
    cd outfitly
    ```
 
